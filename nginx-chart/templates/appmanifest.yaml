@@ -15,3 +15,5 @@
 ---
 {{- include "library-chart.service" . }}
 ---
+{{- include "library-chart.limits" . }}
+---

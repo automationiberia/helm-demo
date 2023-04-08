@@ -2,7 +2,23 @@ apiVersion: v1
 entries:
   frontend-nginx:
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.970339+02:00"
+    created: "2023-04-08T20:39:22.87578+02:00"
+    dependencies:
+    - name: library-chart
+      repository: https://automationiberia.github.io/library-demo/
+      version: 1.0.3
+    description: My First Helm Chart
+    digest: cb237bd34b19cab4616e699376c017591a13a1e427dbb28a81832ba10b52877a
+    maintainers:
+    - email: helmdeployment@mail.com
+      name: rh
+    name: frontend-nginx
+    type: application
+    urls:
+    - frontend-nginx-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
+    created: "2023-04-08T20:39:22.874999+02:00"
     dependencies:
     - name: library-chart
       repository: https://automationiberia.github.io/library-demo/
@@ -18,23 +34,7 @@ entries:
     - frontend-nginx-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.969779+02:00"
-    dependencies:
-    - name: library-chart
-      repository: https://automationiberia.github.io/library-demo/
-      version: ~1.0.x
-    description: My First Helm Chart
-    digest: ab457fa4147d21a38d9e55f44bd473df39ff5667810e1a7d583e417939e423ce
-    maintainers:
-    - email: helmdeployment@mail.com
-      name: rh
-    name: frontend-nginx
-    type: application
-    urls:
-    - frontend-nginx-1.0.3.tgz
-    version: 1.0.3
-  - apiVersion: v2
-    created: "2023-04-08T20:17:38.968762+02:00"
+    created: "2023-04-08T20:39:22.874335+02:00"
     dependencies:
     - name: library-chart
       repository: https://automationiberia.github.io/library-demo/
@@ -50,7 +50,7 @@ entries:
     - frontend-nginx-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.967922+02:00"
+    created: "2023-04-08T20:39:22.873773+02:00"
     dependencies:
     - name: library-chart
       repository: https://automationiberia.github.io/library-demo/
@@ -66,7 +66,7 @@ entries:
     - frontend-nginx-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.96668+02:00"
+    created: "2023-04-08T20:39:22.872974+02:00"
     dependencies:
     - name: library-chart
       repository: https://automationiberia.github.io/library-demo/
@@ -82,7 +82,7 @@ entries:
     - frontend-nginx-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.965629+02:00"
+    created: "2023-04-08T20:39:22.872236+02:00"
     dependencies:
     - name: library-chart
       repository: https://automationiberia.github.io/library-demo/
@@ -98,7 +98,7 @@ entries:
     - frontend-nginx-0.1.9.tgz
     version: 0.1.9
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.96469+02:00"
+    created: "2023-04-08T20:39:22.871687+02:00"
     dependencies:
     - name: library-chart
       repository: https://automationiberia.github.io/library-demo/
@@ -114,7 +114,7 @@ entries:
     - frontend-nginx-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.963555+02:00"
+    created: "2023-04-08T20:39:22.871126+02:00"
     dependencies:
     - name: library-chart
       repository: https://github.com/automationiberia/library-demo.git
@@ -130,7 +130,7 @@ entries:
     - frontend-nginx-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.962063+02:00"
+    created: "2023-04-08T20:39:22.870304+02:00"
     description: My First Helm Chart
     digest: 6c9caa382af1f5358cfbbf6426d6a6d75e3944a73a8dea7a60604c1213846fea
     maintainers:
@@ -142,7 +142,7 @@ entries:
     - frontend-nginx-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.961394+02:00"
+    created: "2023-04-08T20:39:22.869183+02:00"
     description: My First Helm Chart
     digest: 822f51f4d3c2763a6ab3598d22819001aee73d7303770d988cd49c0c1984df6a
     maintainers:
@@ -154,7 +154,7 @@ entries:
     - frontend-nginx-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.960603+02:00"
+    created: "2023-04-08T20:39:22.868516+02:00"
     description: My First Helm Chart
     digest: 87536b3a33844998c8698b545a1f8385241ecdf17d49f4a0fe4883db4d4d97c8
     maintainers:
@@ -166,7 +166,7 @@ entries:
     - frontend-nginx-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.959616+02:00"
+    created: "2023-04-08T20:39:22.868029+02:00"
     description: My First Helm Chart
     digest: 682fe1ee67c7c134c3f20193f4e3769985dd54ed1f5774dd5627801a02df957e
     maintainers:
@@ -178,7 +178,7 @@ entries:
     - frontend-nginx-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
-    created: "2023-04-08T20:17:38.958744+02:00"
+    created: "2023-04-08T20:39:22.867675+02:00"
     description: My First Helm Chart
     digest: 4a38a0696669bb456ab81551bd0c54bdbfa62ce2696e3327824649cc882f6d5a
     maintainers:
@@ -191,7 +191,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-04-08T20:17:38.957792+02:00"
+    created: "2023-04-08T20:39:22.867219+02:00"
     description: My First Helm Chart
     digest: 9474dd7d3061344eb085394d7f6be706a7b626ed2e925e1201abc8046eb11b48
     maintainers:
@@ -204,7 +204,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-04-08T20:17:38.956554+02:00"
+    created: "2023-04-08T20:39:22.866601+02:00"
     description: My First Helm Chart
     digest: 4d71e865754270d5c357f70403f7c8189908faba3054f9daaa7261ffb1b57827
     maintainers:
@@ -215,4 +215,4 @@ entries:
     urls:
     - frontend-nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-08T20:17:38.95365+02:00"
+generated: "2023-04-08T20:39:22.864829+02:00"
