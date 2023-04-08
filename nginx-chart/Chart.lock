@@ -1,6 +1,6 @@
 dependencies:
 - name: library-chart
   repository: https://automationiberia.github.io/library-demo/
-  version: 1.0.4
-digest: sha256:a51ad9b5d7d8346649d2511be1d74f80f5bd3653cc4f2682f9df33e00e30e3e9
-generated: "2023-04-08T20:49:01.846499+02:00"
+  version: 1.0.5
+digest: sha256:b3d2067cd7e26d7d1c72a070941d5bc7d46f4f6509d7a2d9bc6fb01c3f9a4fca
+generated: "2023-04-08T22:23:38.342696+02:00"
