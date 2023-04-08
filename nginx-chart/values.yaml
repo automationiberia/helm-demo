@@ -68,3 +68,9 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+limits:
+  default:
+    memory: 1Gi
+  defaultRequest: 
+    memory: 500Mi
