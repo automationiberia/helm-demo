@@ -74,9 +74,3 @@ limits:
     memory: 1Gi
   defaultRequest: 
     memory: 500Mi
-
-global:
-  cluster:
-    ocp: true
-    aws: false
-    aro: false
