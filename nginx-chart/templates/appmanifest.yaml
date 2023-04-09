@@ -15,9 +15,7 @@
 ---
 {{- include "library-chart.limits" . }}
 ---
-{{- if .Values.global.cluster.ocp -}}
 {{- include "library-chart.route" . }}
-{{- if .Values.global.cluster.aws -}}
+---
 {{- include "library-chart.ingress" . }}
-{{- end -}}
 ---
