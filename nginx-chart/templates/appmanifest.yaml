@@ -23,3 +23,9 @@
 ---
 {{- include "library-chart.limits" . }}
 ---
+{{- if .Values.global.cluster.ocp -}}
+{{- printf "true" }}
+{{- else -}}
+{{- printf "false" }}
+{{- end -}}
+---
