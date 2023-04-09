@@ -24,8 +24,8 @@
 {{- include "library-chart.limits" . }}
 ---
 {{- if .Values.global.cluster.ocp -}}
-{{- printf "true" }}
+{{- include "library-chart.route" . }}
 {{- else -}}
-{{- printf "false" }}
+{{- include "library-chart.ingress" . }}
 {{- end -}}
 ---
