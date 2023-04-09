@@ -9,7 +9,13 @@
 ---
 {{- include "library-chart.rolebinding" . }}
 ---
+{{- if .Values.global.cluster.ocp -}}
 {{- include "library-chart.route" . }}
+{{- end -}}
+---
+{{- if .Values.global.cluster.aws -}}
+{{- include "library-chart.ingress" . }}
+{{- end -}}
 ---
 {{- include "library-chart.serviceaccount" . }}
 ---
