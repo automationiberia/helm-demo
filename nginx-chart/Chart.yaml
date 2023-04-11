@@ -2,7 +2,7 @@ apiVersion: v2
 name: frontend-nginx
 description: My First Helm Chart
 type: application
-version: 1.0.16
+version: 1.0.17
 maintainers:
 - email: helmdeployment@mail.com
   name: rh
