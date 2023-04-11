@@ -77,6 +77,6 @@ limits:
 
 global:
   cluster:
-    ocp: 
-    aws: 
-    aro: 
+    ocp: false
+    aws: false
+    aro: false
